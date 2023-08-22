@@ -3,7 +3,7 @@
 Este divertido ejercicio para reforzar conocimientos en JavaScript y desarrollar un juego llamado "3 en raya".
 Se ponen en práctica varios conceptos de programación como el manejo de arrays, control de estados, validaciones, etc.
 
-👉 [Live demo](https://felipejoq.github.io/el-gato-3-en-raya.git) 🕹️
+👉 [Live demo](https://felipejoq.github.io/el-gato-3-en-raya) 🕹️
 
 ## Stack
 
