@@ -1,0 +1,70 @@
+<!doctype html>
+<html lang="es">
+
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport"
+        content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
+    <meta http-equiv="X-UA-Compatible" content="ie=edge">
+    <title>El Gato - Tic Tac Toe - 3 en raya</title>
+
+    <!-- FontAwesome -->
+    <link rel="stylesheet" href="https://cdnjs.cloudflare.com/ajax/libs/font-awesome/6.4.2/css/all.min.css" integrity="sha512-z3gLpd7yknf1YoNbCzqRKc4qyor8gaKU1qmn+CShxbuBusANI9QpRohGBreCFkKxLhei6S9CQXFEbbKuqLg0DA==" crossorigin="anonymous" referrerpolicy="no-referrer" />
+  <script type="module" crossorigin src="/el-gato-3-en-raya/assets/index-b83468ce.js"></script>
+  <link rel="stylesheet" href="/el-gato-3-en-raya/assets/index-df2fa953.css">
+</head>
+
+<body>
+
+    <div class="wrapper">
+        <h1>Jugar al <span>GATO</span></h1>
+        <div id="current-player-info">
+            Tu turno: <span id="current-player">X</span>
+        </div>
+
+        <div class="panel">
+            <div class="row" id="row_0">
+                <div class="box" id="box-0-0"></div>
+                <div class="box" id="box-0-1"></div>
+                <div class="box" id="box-0-2"></div>
+            </div>
+            <div class="row" id="row_1">
+                <div class="box" id="box-1-0"></div>
+                <div class="box" id="box-1-1"></div>
+                <div class="box" id="box-1-2"></div>
+            </div>
+            <div class="row" id="row_2">
+                <div class="box" id="box-2-0"></div>
+                <div class="box" id="box-2-1"></div>
+                <div class="box" id="box-2-2"></div>
+            </div>
+        </div>
+        <div class="over-message">
+            <div class="over-message-content">
+                <div id="message"></div>
+                <div class="controls">
+                    <button class="button-3d resetBtn">
+                        <i class="fa-solid fa-arrow-rotate-right fa-lg"></i>
+                    </button>
+                    <button class="button-3d exitBtn">Salir</button>
+                </div>
+            </div>
+        </div>
+
+        <div class="controls">
+            <button class="button-3d resetBtn">
+                <i class="fa-solid fa-arrow-rotate-right fa-lg"></i> Reset
+            </button>
+        </div>
+        
+        <footer>
+            <p>
+                Felipe JQ - <a href="https://github.com/felipejoq/el-gato-3-en-raya" target="_blank">Repository</a>
+            </p>
+        </footer>
+    </div>
+
+    
+</body>
+
+</html>
